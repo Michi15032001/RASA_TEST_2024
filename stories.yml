@@ -1,0 +1,58 @@
+stories:
+- story: Benutzer begrüßt und fragt nach IT-Support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_it_support
+  - action: utter_ask_it_support
+
+- story: Benutzer begrüßt und fragt nach Lager-IT-Support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_lager_it_support
+  - action: utter_ask_lager_it_support
+
+- story: Benutzer begrüßt und fragt nach BLS-Support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_bls_support
+  - action: utter_ask_bls_support
+
+- story: Benutzer begrüßt und fragt nach EDI-Support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_edi_support
+  - action: utter_ask_edi_support
+
+- story: Benutzer bestätigt ein Problem
+  steps:
+  - intent: affirm
+  - action: utter_confirm_issue
+
+- story: Benutzer lehnt ein Problem ab
+  steps:
+  - intent: deny
+  - action: utter_deny_issue
+
+- story: Benutzer ist unsicher
+  steps:
+  - intent: inform
+  - action: utter_unsure
+
+- story: Benutzer verabschiedet sich
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Fallback-Szenario
+  steps:
+  - intent: fallback
+  - action: utter_ask_rephrase
+
+- story: Out-of-Scope-Szenario
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
