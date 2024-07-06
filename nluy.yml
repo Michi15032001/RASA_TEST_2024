@@ -43,7 +43,6 @@ nlu:
     - Die Firewall blockiert alle Verbindungen. Was tun?
     - Wer kann mir bei VPN-Problemen helfen?
     - Ich habe ein Software-Problem. Wer kann helfen?
-    - komme nicht auf meinen pc
 
 - intent: ask_lager_it_support
   examples: |
@@ -85,10 +84,6 @@ nlu:
     - Die Konfektionierungs-Software zeigt Fehler. Wer hilft?
     - Probleme bei der Kommissionierung. Was tun?
     - Lager-IT-Software funktioniert nicht richtig. Wer kann helfen?
-    - stempeln geht nciht
-    - novatime geht nicht
-    - novatime terminal defekt
-    - novatime ist zuständig für die Zeitdaten und Stunden der Mitarbeiter
 
 - intent: ask_bls_support
   examples: |
@@ -164,3 +159,46 @@ nlu:
     - Probleme beim Datentransfer zum Kunden. Was tun?
     - Kundendaten werden nicht richtig empfangen. Was tun?
 
+- intent: affirm
+  examples: |
+    - Ja
+    - Stimmt
+    - Genau so ist es
+    - Ja, das Problem ist XYZ
+
+- intent: deny
+  examples: |
+    - Nein
+    - Das ist nicht das Problem
+    - Ich habe etwas anderes gemeint
+
+- intent: inform
+  examples: |
+    - unsicher
+    - Bin mir nicht sicher
+    - Vielleicht
+    - Ich weiß nicht genau
+
+- intent: greet
+  examples: |
+    - Hallo
+    - Hi
+    - Guten Tag
+
+- intent: goodbye
+  examples: |
+    - Tschüss
+    - Auf Wiedersehen
+    - Bis bald
+
+- intent: fallback
+  examples: |
+    - Entschuldigung, das habe ich nicht verstanden.
+    - Kannst du das nochmal erklären?
+    - Ich bin mir nicht sicher, was du meinst.
+
+- intent: out_of_scope
+  examples: |
+    - Das hat nichts mit meinem Problem zu tun.
+    - Ich brauche Unterstützung bei einem anderen Thema.
+    - Das ist nicht relevant für mich.
