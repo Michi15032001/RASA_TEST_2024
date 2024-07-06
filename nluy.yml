@@ -1,0 +1,166 @@
+nlu:
+- intent: ask_it_support
+  examples: |
+    - Mein PC startet nicht. Was könnte das Problem sein?
+    - Warum fährt mein Computer nicht hoch?
+    - Ich kann meinen Rechner nicht einschalten. Was soll ich tun?
+    - Der Drucker funktioniert nicht. Könnte jemand helfen?
+    - Warum druckt der Drucker nicht mehr?
+    - Mein Drucker ist kaputt. Wie kann ich das beheben?
+    - Ich habe ein Problem mit meinem PC. Kann mir jemand helfen?
+    - Der Computer zeigt einen Fehler an. Was kann ich tun?
+    - Ich brauche Hilfe bei Hardware-Fragen.
+    - Wer kann mir bei Hardware-Problemen helfen?
+    - Ich habe Fragen zu meinem PC. An wen kann ich mich wenden?
+    - Kann mir jemand bei meinen PC-Problemen helfen?
+    - Ich habe Probleme mit einer Software. Was kann ich tun?
+    - Wer kann mir bei Software-Problemen helfen?
+    - Mein Handy funktioniert nicht richtig. Was kann ich tun?
+    - Warum geht mein Mobiltelefon nicht?
+    - Mein Smartphone hat ein Problem. Kann mir jemand helfen?
+    - Ich kann nicht telefonieren. Was soll ich tun?
+    - Mein Telefon funktioniert nicht. Was könnte das Problem sein?
+    - VPN verbindet nicht. Was kann ich machen?
+    - Warum funktioniert mein VPN nicht?
+    - Die Firewall blockiert den Zugriff. Was soll ich tun?
+    - Ich habe ein Problem mit der Firewall. Kann mir jemand helfen?
+    - Warum startet mein Laptop nicht mehr?
+    - Was tun, wenn der Rechner nicht hochfährt?
+    - Hilfe, mein Drucker druckt keine Seiten mehr.
+    - Kann mir jemand bei Druckerproblemen helfen?
+    - Was könnte der Grund sein, dass der Drucker nicht druckt?
+    - Ich kann meinen PC nicht einschalten. Was tun?
+    - Mein Computer bleibt beim Start hängen. Was soll ich machen?
+    - Hilfe bei PC-Startproblemen gesucht. Was tun?
+    - Der Bildschirm bleibt schwarz. Wer kann mir helfen?
+    - Warum zeigt der Monitor nichts an?
+    - Mein Handy geht nicht an. Was kann ich tun?
+    - Hilfe, mein Mobiltelefon startet nicht mehr.
+    - Warum kann ich mein Smartphone nicht benutzen?
+    - Der VPN-Zugang funktioniert nicht. Was kann ich tun?
+    - Warum komme ich nicht ins VPN?
+    - Ich brauche Unterstützung bei Firewall-Problemen.
+    - Die Firewall blockiert alle Verbindungen. Was tun?
+    - Wer kann mir bei VPN-Problemen helfen?
+    - Ich habe ein Software-Problem. Wer kann helfen?
+    - komme nicht auf meinen pc
+
+- intent: ask_lager_it_support
+  examples: |
+    - Alwis ist defekt. Wer kann das reparieren?
+    - Warum funktioniert Alwis nicht?
+    - Der Drucker im Lager druckt nicht. Was soll ich tun?
+    - Warum druckt der Lager-Drucker nicht?
+    - Der Drucker hat Probleme mit WEB. Was kann ich tun?
+    - Warum klappt die Verbindung zwischen Drucker und WEB nicht?
+    - Ich habe ein Problem bei der Konfektionierung. Kann mir jemand helfen?
+    - Warum gibt es Probleme bei der Konfektionierung?
+    - Die Kommissionierung funktioniert nicht richtig. Was kann ich tun?
+    - Wer kann mir bei Problemen mit der Kommissionierung helfen?
+    - Es gibt Probleme beim WE-Scan. Was kann ich tun?
+    - Der WE-Scan zeigt Fehler an. Wer kann helfen?
+    - Das Webprogramm reagiert nicht. Was könnte das Problem sein?
+    - Ich kann mich nicht bei Alwis anmelden. Wer kann helfen?
+    - Alwis hängt sich ständig auf. Was kann ich tun?
+    - Es gibt Fehler bei der Dateneingabe in Alwis. Wer kann helfen?
+    - Warum funktioniert die Lager-Software nicht richtig?
+    - Die Webanwendung stürzt ab. Was kann ich tun?
+    - Ich habe Probleme mit der Benutzeroberfläche von Alwis. Wer hilft?
+    - Der Zugriff auf die Lager-Software ist nicht möglich. Was tun?
+    - Ich bekomme eine Fehlermeldung in Alwis. Was bedeutet das?
+    - Die Alwis-Software reagiert nicht. Was kann ich tun?
+    - Warum funktioniert der Drucker in Alwis nicht?
+    - Alwis zeigt ständig Fehlermeldungen. Was tun?
+    - Probleme mit der Konfektionierungs-Software. Wer hilft?
+    - Warum geht die Kommissionierungs-Software nicht?
+    - Alwis-Datenbank ist nicht erreichbar. Was tun?
+    - Ich kann keine Daten in Alwis eingeben. Was soll ich tun?
+    - Die Lager-Software funktioniert nicht richtig. Wer kann helfen?
+    - Webanwendung im Lager reagiert nicht. Was tun?
+    - Probleme beim WE-Scan im Lager. Wer kann helfen?
+    - Die Webprogramme im Lager sind langsam. Was kann ich tun?
+    - Alwis ist abgestürzt. Was soll ich tun?
+    - Wer kann Probleme mit der Lager-Software lösen?
+    - Alwis druckt keine Etiketten. Was tun?
+    - Die Konfektionierungs-Software zeigt Fehler. Wer hilft?
+    - Probleme bei der Kommissionierung. Was tun?
+    - Lager-IT-Software funktioniert nicht richtig. Wer kann helfen?
+    - stempeln geht nciht
+    - novatime geht nicht
+    - novatime terminal defekt
+    - novatime ist zuständig für die Zeitdaten und Stunden der Mitarbeiter
+
+- intent: ask_bls_support
+  examples: |
+    - BLS funktioniert nicht. Wer kann das beheben?
+    - Warum geht BLS nicht?
+    - Ich möchte eine Tour erstellen. Wie mache ich das?
+    - Wie kann ich eine neue Tour erstellen?
+    - Es gibt ein Problem mit der Dockingsession. Was soll ich tun?
+    - Warum funktioniert die Dockingsession nicht?
+    - We Scan startet nicht. Was kann ich machen?
+    - Warum startet We Scan nicht?
+    - BLS startet nicht. Wer kann das reparieren?
+    - Warum fährt BLS nicht hoch?
+    - Ich kann keine Tourdaten eingeben. Was soll ich tun?
+    - Tourdaten werden nicht gespeichert. Wer kann helfen?
+    - Probleme mit der Tourdaten-Eingabe. Was tun?
+    - Die Speditionsseite lädt nicht. Was kann ich tun?
+    - Warum funktioniert die Speditionsseite nicht?
+    - Ich habe ein Problem mit der Speditionsseite. Wer hilft?
+    - Dockingsession bricht ab. Was kann ich tun?
+    - Warum geht die Dockingsession immer wieder verloren?
+    - Es gibt Probleme mit den Tourdaten. Wer kann helfen?
+    - Tourdaten sind nicht korrekt. Was soll ich tun?
+    - Ich kann keine neuen Tourdaten eingeben. Wer kann helfen?
+    - Die Dockingsession startet nicht. Was tun?
+    - Warum funktioniert die Dockingsession nicht richtig?
+    - Die Tourdaten sind fehlerhaft. Wer kann das beheben?
+    - Es gibt Probleme mit der Speditionsseite. Was kann ich tun?
+    - Warum lädt die Speditionsseite so langsam?
+    - Ich kann keine Tour erstellen. Wer kann helfen?
+    - Tourdaten können nicht gespeichert werden. Was tun?
+    - Die Speditionssoftware funktioniert nicht. Wer kann helfen?
+    - Probleme mit der Tourdaten-Software. Was soll ich tun?
+    - Dockingsession wird nicht abgeschlossen. Was tun?
+    - Warum geht die Dockingsession nicht durch?
+    - Probleme bei der Eingabe von Tourdaten. Wer kann helfen?
+    - Ich kann keine neuen Touren anlegen. Was tun?
+    - Tourdaten werden nicht aktualisiert. Wer kann helfen?
+    - Die Speditionsseite reagiert nicht. Was kann ich tun?
+    - Dockingsession funktioniert nicht richtig. Wer kann helfen?
+    - Ich habe ein Problem mit den Tourdaten. Was tun?
+    - Die Tourdaten werden nicht richtig angezeigt. Wer hilft?
+
+- intent: ask_edi_support
+  examples: |
+    - Lobster hat ein Problem. Wer kann das lösen?
+    - Warum funktioniert Lobster nicht?
+    - EDI funktioniert nicht. Was kann ich tun?
+    - Warum geht EDI nicht?
+    - Es gibt ein Problem mit den Sendungsdaten. Wer kann helfen?
+    - Warum sind die Sendungsdaten fehlerhaft?
+    - SSCC-Übertrag funktioniert nicht. Was soll ich tun?
+    - Warum geht die SSCC-Übertragung nicht?
+    - SSCC hat ein Problem. Wer kann das beheben?
+    - Warum funktioniert SSCC nicht?
+    - Es gibt ein Problem mit der SSCC-Dockingsession. Wer kann helfen?
+    - Warum funktioniert die SSCC-Dockingsession nicht?
+    - Datenübertragung zum Kunden funktioniert nicht. Was tun?
+    - Warum werden die Daten zum Kunden nicht übertragen?
+    - Probleme beim Datenaustausch mit dem Kunden. Wer hilft?
+    - Der Datentransfer zwischen unserer Firma und dem Kunden funktioniert nicht. Was tun?
+    - Warum klappt der Datentransfer mit dem Kunden nicht?
+    - Daten vom Kunden kommen nicht an. Wer kann helfen?
+    - Probleme beim Empfang von Kundendaten. Was soll ich tun?
+    - Kundendaten werden nicht korrekt übertragen. Was tun?
+    - Warum sind die Kundendaten unvollständig?
+    - Es gibt Fehler bei der Datenübertragung zum Kunden. Wer hilft?
+    - EDI-Daten kommen nicht an. Was kann ich tun?
+    - Die EDI-Verbindung funktioniert nicht. Was tun?
+    - Warum werden die Daten nicht korrekt übertragen?
+    - Datenübertragung zwischen uns und dem Kunden funktioniert nicht. Wer hilft?
+    - Warum sind die übertragenen Daten fehlerhaft?
+    - Probleme beim Datentransfer zum Kunden. Was tun?
+    - Kundendaten werden nicht richtig empfangen. Was tun?
+
