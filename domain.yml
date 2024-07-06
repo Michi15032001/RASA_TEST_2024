@@ -1,0 +1,51 @@
+intents:
+- greet:
+    use_entities: []
+- ask_it_support:
+    use_entities: []
+- ask_lager_it_support:
+    use_entities: []
+- ask_bls_support:
+    use_entities: []
+- ask_edi_support:
+    use_entities: []
+- affirm:
+    use_entities: []
+- deny:
+    use_entities: []
+- inform:
+    use_entities: []
+- goodbye:
+    use_entities: []
+- fallback:
+    use_entities: []
+- out_of_scope:
+    use_entities: []
+
+responses:
+  utter_greet:
+  - text: "Hallo! Wie kann ich Ihnen helfen?"
+  utter_ask_it_support:
+  - text: "Können Sie mir mehr über Ihr IT-Problem sagen?"
+  utter_ask_lager_it_support:
+  - text: "Wie kann ich Ihnen mit Problemen im Lager-IT-Bereich helfen?"
+  utter_ask_bls_support:
+  - text: "Wie kann ich Sie bei Problemen mit BLS unterstützen?"
+  utter_ask_edi_support:
+  - text: "Wie kann ich Ihnen bei Problemen mit EDI helfen?"
+  utter_confirm_issue:
+  - text: "Verstanden. Lassen Sie mich nach einer Lösung suchen."
+  utter_deny_issue:
+  - text: "Okay, schauen wir uns ein anderes Problem an."
+  utter_unsure:
+  - text: "Das ist kein Problem. Lassen Sie mich wissen, wenn Sie mehr Informationen haben."
+  utter_goodbye:
+  - text: "Auf Wiedersehen! Falls Sie weitere Hilfe benötigen, stehe ich Ihnen gerne zur Verfügung."
+  utter_ask_rephrase:
+  - text: "Entschuldigung, das habe ich nicht verstanden. Können Sie das anders formulieren?"
+  utter_out_of_scope:
+  - text: "Das scheint nicht zu meinem Aufgabenbereich zu gehören. Kann ich Ihnen anderweitig helfen?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
